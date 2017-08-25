@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -19,12 +20,12 @@
 
         <Button
             android:id="@+id/back_button"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:background="@drawable/ic_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:background="#f91" />
+            android:layout_marginLeft="10dp"/>
     </RelativeLayout>
 
     <ListView
